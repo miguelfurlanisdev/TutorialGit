@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Tutorial Git | Miguel Voticoski</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="container">
+            <p class="etiqueta">Git</p>
+            
+            <h1>Tutorial Git</h1>
+
+            <p class="subtitulo">
+                 Aprenda os conceitos fundamentais do sistema de versionamento mais usado no mundo.
+            </p>
+
+            <nav class="menu-principal">
+                <ul class="menu-lista">
+                    <li><a class="menu-link" href="index.html">Tutorial</a></li>
+                    <li><a class="menu-link" href="./pages/biografia.html">Quem foi Linus Torvalds?</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="secao">
+            <div class="container">
+                <h2 class="titulo-secao">Conteúdo principal</h2>
+                <div class="grade-cards">
+                    <article class="card">
+                        <h3>O que é Git?</h3>
+                        <p>O Git é um sistema de controle de versão distribuído, criado para registrar o histórico de edições em arquivos e permitir o trabalho em equipe sem sobrescrever o código de outros desenvolvedores.</p>
+                    </article>     
+                </div>
+
+                <h2 class="titulo-secao">Configuração Inicial</h2>
+                <div class="grade-cards">
+                    <article class="card">
+                        <h3>Antes de usar o Git, é necessário identificar seu usuário e e-mail:</h3>
+                        <ul class="lista-comandos">
+                            <li><code><pre>git config --global user.name "Seu Nome"</code></pre></li>
+                            <li><code><pre>git config --global user.email "seuemail@exemplo.com"</pre></code></li>
+                        </ul>
+                    </article>     
+                </div>
+            </div>
+        </section>
+        <section class="secao">
+            <table class="tabela-comandos">
+                <caption>Comandos Essenciais no Dia a Dia</caption>
+
+                <thead>
+                    <tr>
+                        <th scope="col">Comandos</th>
+                        <th scope="col">Funções</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <th scope="row"><pre><code>git init:</code></pre></th>
+                        <td> Inicializa um novo repositório Git na pasta atual.</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"><pre><code>git status: </code></pre></th>
+                        <td>Exibe o estado dos arquivos (modificados, salvos ou não rastreados).</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"><pre><code>git add .:</code></pre></th>
+                        <td> Adiciona as alterações para a área de preparação (staging area).</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"><pre><code>git commit -m "mensagem":</code></pre></th>
+                        <td> Salva uma versão (snapshot) das alterações com uma mensagem explicativa.</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"><pre><code>git log: </code></pre></th>
+                        <td>Exibe o histórico de commits realizados no projeto.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="secao">
+            <table class="tabela-comandos">
+                <caption>Trabalhando com Repositórios Remotos</caption>
+
+                <thead>
+                    <tr>
+                        <th scope="col">Comandos</th>
+                        <th scope="col">Funções</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <th scope="row"><pre><code>git clone (link):</code></pre></th>
+                        <td> Conecta seu projeto local a um repositório no GitHub.</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"><pre><code>git push origin main: </code></pre></th>
+                        <td>Envia os commits locais para o repositório remoto.</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"><pre><code>git pull:</code></pre></th>
+                        <td> Baixa e aplica as atualizações mais recentes do repositório remoto.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>     
+    </main>
+
+    <footer class="rodape">
+        <div class="container">
+            <p>&copy; 2026 Miguel Furlanis</p>
+
+            <address>
+                <a href="mailto:miguel25voticoski@gmail.com">Email</a>
+                <span> | </span>
+                <a href="tel:+5515998570388">Telefone</a>
+                <span> | </span>
+                <a href="https://github.com/miguelfurlanisdev"target="_blank">GitHub</a>
+            </address>
+        </div>
+    </footer>
+
+</body>
+</html>
